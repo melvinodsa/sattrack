@@ -129,7 +129,7 @@ class App extends React.Component {
   }
 
   fetchData() {
-    fetch("http://api.open-notify.org/iss-now.json")
+    fetch("https://sheltered-spire-38600.herokuapp.com/iss-now.json")
       .then((res) => res.json())
       .then(
         (result) => {
